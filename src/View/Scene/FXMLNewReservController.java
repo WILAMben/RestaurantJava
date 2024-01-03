@@ -11,23 +11,27 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 
 /**
  *
  * @author Alice
  */
-public class FXMLDocumentController implements Initializable {
-    
+public class FXMLNewReservController implements Initializable {
 	@FXML
 	private Label titre;
 	@FXML
-	private Button buttonRecup;
+	private Button Valider;
 	@FXML
-	private Button buttonSalle;
+	private TextField nom;
 	@FXML
-	private Button buttonNewReserv;
+	private TextField date;
 	@FXML
-	private Button buttonReserv;
+	private TextField nbrPers;
+	@FXML
+	private TextField numTel;
+	@FXML
+	private Button home;
     
     
     @Override

@@ -5,6 +5,23 @@ and open the template in the editor.
 */
 /* 
     Created on : 3 janv. 2024, 14:58:57
-    Author     : Eleve
+    Author     : Alice
 */
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
 
+.AnchorPanel{
+	-fx-background-color: #D9D9D9;
+	-fx-border-radius:20px;
+}
+
+.label{
+	-fx-font-family:"Inter";
+	-fx-font-size:28pt;
+	-fx-color:#000;
+	-fx-text-align:"center";
+}
+
+.button{
+	-fx-border-radius:20px;
+	-fx-background-color:#FFF;
+}
