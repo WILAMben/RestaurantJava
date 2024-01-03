@@ -1,9 +1,11 @@
+package View;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Application;
+
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -15,7 +17,7 @@ import javafx.stage.Stage;
  *
  * @author Eleve
  */
-public class RestaurantJava extends Application {
+public class Main extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
