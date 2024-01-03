@@ -1,4 +1,4 @@
-package View;
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -21,7 +21,7 @@ public class Main extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("View/Scene/FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
         

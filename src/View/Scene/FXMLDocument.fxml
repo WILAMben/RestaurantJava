@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="View.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="View.Scene.FXMLDocumentController">
     <children>
         <Label fx:id="label" layoutX="69.0" layoutY="78.0" minHeight="16" minWidth="69" />
       <Label fx:id="titre" layoutX="158.0" layoutY="14.0" minHeight="34.0" minWidth="400.0" stylesheets="@Application.css" text="Acceuil" textAlignment="CENTER">
@@ -13,9 +13,9 @@
             <Font size="28.0" />
          </font>
       </Label>
-      <Button fx:id="buttonRecup" layoutX="80.0" layoutY="117.0" onAction="#handleButtonAction" prefHeight="125.0" prefWidth="200.0" stylesheets="@Application.css" text="Récupérer les reservation du site" />
-      <Button fx:id="buttonNewReserv" layoutX="80.0" layoutY="280.0" onAction="#handleButtonAction" prefHeight="125.0" prefWidth="200.0" stylesheets="@Application.css" text="Nouvelle réservation" />
-      <Button fx:id="buttonSalle" layoutX="394.0" layoutY="117.0" onAction="#handleButtonAction" prefHeight="125.0" prefWidth="200.0" stylesheets="@Application.css" text="Visualiser Salle" />
-      <Button fx:id="buttonReserv" layoutX="394.0" layoutY="280.0" onAction="#handleButtonAction" prefHeight="125.0" prefWidth="200.0" stylesheets="@Application.css" text="Visualiser des réservations" />
+            <Button fx:id="buttonRecup" layoutX="80.0" layoutY="117.0"  prefHeight="125.0" prefWidth="200.0" stylesheets="@Application.css" text="Récupérer les reservation du site" />
+      <Button fx:id="buttonNewReserv" layoutX="80.0" layoutY="280.0"  prefHeight="125.0" prefWidth="200.0" stylesheets="@Application.css" text="Nouvelle réservation" />
+      <Button fx:id="buttonSalle" layoutX="394.0" layoutY="117.0"  prefHeight="125.0" prefWidth="200.0" stylesheets="@Application.css" text="Visualiser Salle" />
+      <Button fx:id="buttonReserv" layoutX="394.0" layoutY="280.0"  prefHeight="125.0" prefWidth="200.0" stylesheets="@Application.css" text="Visualiser des réservations" />
     </children>
 </AnchorPane>
