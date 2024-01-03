@@ -3,29 +3,33 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package View;
+package View.Scene;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 /**
  *
- * @author Eleve
+ * @author Alice
  */
 public class FXMLDocumentController implements Initializable {
     
-    @FXML
-    private Label label;
+	@FXML
+	private Label Titre;
+	@FXML
+	private Button buttonRecuperation;
+	@FXML
+	private Button buttonSalle;
+	@FXML
+	private Button buttonNewReserv;
+	@FXML
+	private Button buttonReserv;
     
-    @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked moiiiiii!");
-        label.setText("Hello World!");
-    }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
