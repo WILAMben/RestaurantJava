@@ -20,6 +20,12 @@ and open the template in the editor.
 	-fx-color:#000;
 	-fx-text-align:"center";
 }
+.label1{
+	-fx-font-family:"Inter";
+	-fx-font-size:14pt;
+	-fx-color:#000;
+	
+}
 
 .button{
 	-fx-border-radius:20px;

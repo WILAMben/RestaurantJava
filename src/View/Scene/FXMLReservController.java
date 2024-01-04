@@ -12,27 +12,26 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 
 /**
  *
  * @author Alice
  */
-public class FXMLNewReservController implements Initializable {
+public class FXMLReservController implements Initializable {
 	@FXML
 	private Label titre;
 	@FXML
 	private Button Valider;
 	@FXML
-	private TextField nom;
+	private Button home;
+	@FXML
+	private Button Supprimer;
 	@FXML
 	private DatePicker date;
 	@FXML
-	private TextField nbrPers;
-	@FXML
-	private TextField numTel;
-	@FXML
-	private Button home;
+	private ListView<String> infoReserv;
     
     
     @Override
